@@ -1,0 +1,16 @@
+#sel_city {
+	z-index: 10;
+	position: absolute;
+	left: 130px;
+	top: 60px;
+}
+#sel_city_pop {
+	display: none;
+	position: absolute;
+	z-index: 11;
+	left: 40%;
+	top: 40px;
+	background: url('bg.png') no-repeat;
+	width: 270px;
+	height: 115px;
+}
