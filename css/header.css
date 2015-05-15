@@ -103,8 +103,8 @@ body>.header>.right {
 }
 body>.header>.right .logo {
 	position: absolute;
-	top: 50px;
-	left: 180px;
+	top: 45px;
+	left: 100px;
 }
 body>.header>.right .gerb {
 	position: absolute;
@@ -221,7 +221,7 @@ body>.header>.right .buts .comments a {
 body>.header>.right .trans {
 	position: absolute;
 	top: 240px;
-	left: 200px;
+	left: 100px;
 	width: 300px;	
 }
 body>.header>.right .trans a {
@@ -235,10 +235,10 @@ body>.header>.right .trans a:hover {
 body>.header>.right .trans>.title {
 	margin-bottom: 5px;
 }
-body>.header>.right .trans>.title a {
+body>.header>.right .trans>.title h1 {
 	font-size: 32px;
 	color: #EAFDE5;
-	line-height: 30px;
+	line-height: 35px;
 }
 body>.header>.right .trans>.title a:hover {
 	color: #fff;

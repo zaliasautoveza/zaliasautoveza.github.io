@@ -1,37 +1,8 @@
-@font-face {
-	font-family: 'HC';
-	src: url('../fonts/helioscondc.eot');
-	src:
-		url('../fonts/helioscondc.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/helioscondc.woff') format('woff'),
-		url('../fonts/helioscondc.ttf') format('truetype'),
-		url('../fonts/helioscondc.svg#helioscondc') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'BG';
-	src: url('../fonts/bg-r.eot');
-	src:
-		url('../fonts/bg-r.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/bg-r.woff') format('woff'),
-		url('../fonts/bg-r.ttf') format('truetype'),
-		url('../fonts/bg-r.svg#barnaulgrotesk') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'BG';
-	src: url('../fonts/bg-b.eot');
-	src:
-		url('../fonts/bg-b.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/bg-b.woff') format('woff'),
-		url('../fonts/bg-b.ttf') format('truetype'),
-		url('../fonts/bg-b.svg#barnaulgrotesk') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
 
+#apacia {
+	min-height: 300px;
+	background: url('../view/spb/include/cars/images/footer.png');
+}
 
 body, html {
 	margin: 0;
@@ -45,111 +16,6 @@ body {
 	font-size: 14px;
 	min-width: 1430px;
 	position: relative;
-}
-body>.page {
-	padding: 20px 450px 0px 80px;
-	font-size: 14px;
-	position: relative;
-	min-height: 200px;
-}
-
-.page>.actions {
-	position: absolute;	
-	right: 80px;
-	top: 0;
-}
-.page>.buttons {
-	position: absolute;
-	top: 10px;
-	right: 400px;
-}
-
-.page>.bread {
-	margin-top: 15px;
-}
-.page>.bread,
-.page>.bread a {
-	color: #F63;
-	font-weight: bold;
-}
-.page>.bread a:hover {
-	color: #d35024;
-}
-
-.page>.tabs {
-	position: absolute;
-	top: -30px;
-	left: 70px;
-	height: 30px;
-	overflow: hidden;
-}
-.page>.tabs>.item {
-	cursor: pointer;
-	font-weight: bold;
-	background: #F6E826;
-	margin-right: 3px;
-	border-radius: 5px 5px 0px 0px;
-	padding: 5px 20px;
-	line-height: 35px;
-	text-decoration: none;
-	color: #555;
-}
-.page>.tabs>.item:hover {	
-	background: #FFF789;
-	color: #000;
-}
-.page>.tabs>.item.active {
-	padding: 10px 20px;
-	line-height: 35px;
-	color: #000;
-	background: #fff;
-}
-
-.page>.links {
-	margin: 15px 0 30px 0;
-}
-.page>.links a {
-	float: left;
-	display: block;
-	margin-right: 30px;
-	color: #555;
-	font-size: 12px;
-	cursor: pointer;
-	text-decoration: none;
-	min-width: 100px;
-	max-width: 200px;
-}
-.page>.links a:hover {
-	color: #000;
-	text-decoration: underline;	
-}
-.page>.menu {
-	position: absolute;
-	right: 80px;
-	width: 280px;
-}
-.page>.menu>div {
-	margin-bottom: 10px;	
-}
-.page>.menu .h2 {
-	margin: 0 0 5px 0;	
-}
-.page>.menu a.item {
-	padding: 0 0 4px 20px;
-	color: #000;
-}
-.page>.menu a {
-	display: block;
-	text-decoration: none;	
-}
-.page>.menu a:hover {
-	text-decoration: underline;
-}
-.page>.menu a>span {
-	display: block;
-	font-size: 12px;
-	color: #555;
-	text-decoration: none;
 }
 
 h1, .h1, h1>a, .h1>a {
