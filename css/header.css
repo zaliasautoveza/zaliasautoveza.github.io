@@ -104,7 +104,7 @@ body>.header>.right {
 body>.header>.right .logo {
 	position: absolute;
 	top: 45px;
-	left: 100px;
+	left: 0px;
 }
 body>.header>.right .gerb {
 	position: absolute;
