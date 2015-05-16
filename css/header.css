@@ -1,3 +1,7 @@
+.active {
+	cursor: default;
+} 
+
 body>.header {
 	height: 440px;
 	position: relative;
@@ -8,22 +12,7 @@ body>.header.new {
 	--height: 379px;
 	--border-bottom: 3px solid #9FE62D;
 }
-body.fleet>.header.new,
-body.price>.header.new {	
-	height: 470px;
-}
-.samo{
-	background: url('./images/header/samosklad.png') center center no-repeat !important;
-	padding: 0px !important;
-}
-a.samosklad{
-	display: block;
-	width: 100px;
-	height: 40px;
-}
-a.samosklad:hover{
-	text-decoration: none !important;
-}
+
 .new.anim {
 	background: url('../images/header/bg_new.jpg') 0 0 repeat-x;
 }
@@ -38,20 +27,6 @@ body>.header>.right .logo {
 	top: 5px;
 	left: -100px;
 }
-body>.header>.right .gerb {
-	position: absolute;
-	top: -25px;
-}
-body>.header>.right .proezd {
-	position: absolute;
-	left: -210px;
-	top: 17px;
-}
-body>.header>.right .cost {
-	position: absolute;
-	left: -115px;
-	top: 20px;
-}
 
 body>.header>.right .trans {
 	position: absolute;
@@ -64,9 +39,7 @@ body>.header>.right .trans a {
 	font-size: 9px;
 	text-decoration: none;
 }
-body>.header>.right .trans a:hover {
-	text-decoration: underline;	
-}
+
 body>.header>.right .trans>.title {
 	margin-bottom: 5px;
 }
@@ -74,7 +47,4 @@ body>.header>.right .trans>.title h1 {
 	font-size: 32px;
 	color: #EAFDE5;
 	line-height: 35px;
-}
-body>.header>.right .trans>.title a:hover {
-	color: #fff;
 }
