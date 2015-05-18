@@ -18,6 +18,14 @@
 	font-weight: 500;
 }
 
+#kontaktai{
+	width: 100%;
+}
+#kontaktai h2 {
+	display: block;
+	margin: 5px 500px;
+}
+
 /*#footer img{
 	display: block;
 	margin-left: auto;
