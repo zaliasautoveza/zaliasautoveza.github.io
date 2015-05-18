@@ -38,8 +38,9 @@ body {
 }
 
 h1, .h1, h1>a, .h1>a {
-	font-size: 22px;
-	color: #747378;
+	font-size: 30px;
+	font-weight: 500;
+	color: black;
 	font-weight: normal;
 }
 
