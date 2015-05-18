@@ -39,7 +39,7 @@ body {
 
 h1, .h1, h1>a, .h1>a {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: bold;
 	color: black;
 	font-weight: normal;
 }
