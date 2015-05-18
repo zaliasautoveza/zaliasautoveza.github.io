@@ -2,15 +2,13 @@
 	cursor: default;
 } 
 
-body>.header {
+/*body>.header {
 	height: 440px;
 	position: relative;
 	overflow: hidden;
-}
+}*/
 body>.header.new {	
-	height: 440px;
-	--height: 379px;
-	--border-bottom: 3px solid #9FE62D;
+	height: 279px;
 }
 
 .new.anim {
@@ -25,20 +23,20 @@ body>.header>.right {
 body>.header>.right .logo {
 	position: absolute;
 	top: 5px;
-	left: -100px;
+	left: 50px;
 }
 
 body>.header>.right .trans {
 	position: absolute;
 	top: 240px;
-	left: -50px;
+	left: -700px;
 	width: 300px;	
 }
-body>.header>.right .trans a {
+/*body>.header>.right .trans a {
 	color: #000;
 	font-size: 9px;
 	text-decoration: none;
-}
+}*/
 
 body>.header>.right .trans>.title {
 	margin-bottom: 5px;

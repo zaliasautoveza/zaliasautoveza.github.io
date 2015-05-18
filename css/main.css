@@ -6,6 +6,16 @@
 	display: block;
 }
 
+#content {
+	background-color: white;
+	padding: 30px 80px 25px;
+}
+
+#content li{
+	font-size: 25px;
+	line-height: 35px;
+}
+
 /*#footer img{
 	display: block;
 	margin-left: auto;
