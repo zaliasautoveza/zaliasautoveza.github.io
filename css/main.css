@@ -8,12 +8,14 @@
 
 #content {
 	background-color: white;
-	padding: 30px 80px 25px;
+	padding: 30px 80px 50px;
 }
 
-#content li{
+#content li {
 	font-size: 25px;
-	line-height: 35px;
+	line-height: 40px;
+	color: #333333;
+	font-weight: 500;
 }
 
 /*#footer img{
@@ -53,14 +55,4 @@ a {
 
 p {
 	margin: 10px 0;
-}
-
-@media print {
-
-body>.header,
-body>.footer,
-.fleet>.order,
-.fleet>.showonmap,
-.fleet>.cost {
-	display: none;
 }
