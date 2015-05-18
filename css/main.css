@@ -23,12 +23,12 @@
 }
 #kontaktai h2 {
 	display: block;
-	margin: 5px 500px;
+	margin: 5px auto;
 }
 
 .fb-like {
 	display: block;
-	margin: 0 500px;
+	margin: 0 auto;
 }
 
 /*#footer img{
