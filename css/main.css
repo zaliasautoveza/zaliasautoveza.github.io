@@ -162,6 +162,7 @@
 #content {
 	background-color: white;
 	padding: 30px 80px 50px;
+	height: 300px;
 }
 
 #content li {
