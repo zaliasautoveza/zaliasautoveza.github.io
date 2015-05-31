@@ -155,6 +155,7 @@
 	background: url('../view/spb/include/cars/images/footer.png');
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: #a0e62e;
 	height: 336px;
 	display: block;
 }
@@ -195,7 +196,7 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	background-color: #a0e62e;
+/*	background-color: #a0e62e;*/
 }
 
 body {
