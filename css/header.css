@@ -12,7 +12,7 @@ body>.header.new {
 }
 
 .new.anim {
-	background-image: url('../images/header/bg_new.jpg');
+	background-image: url('../images/header/bg_new.png');
 	background-size: 846px 279px;
 	background-repeat: repeat-x;
 }
