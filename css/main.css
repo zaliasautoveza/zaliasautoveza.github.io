@@ -179,7 +179,7 @@
 #kontaktai h2 {
 	text-align: center;
 	display: block;
-	margin: 5px auto;
+	margin: auto;
 }
 
 #kontaktai .fb-like {
@@ -225,6 +225,6 @@ a {
 	color: #82B810;
 }
 
-p {
+/*p {
 	margin: 10px 0;
-}
+}*/
