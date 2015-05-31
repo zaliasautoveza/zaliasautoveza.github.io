@@ -12,7 +12,7 @@ body>.header.new {
 }
 
 .new.anim {
-	background: url('../images/header/bg_new.jpg') 0 0 repeat-x;
+	background: url('../images/header/bg_new.jpg')0 0 repeat-x;
 }
 body>.header>.right {
 	position: absolute;
