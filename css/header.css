@@ -11,9 +11,9 @@ body>.header.new {
 	height: 279px;
 }
 
-.new.anim {
-	display: block;
-	background-image: url('../images/header/bg_new.gif');
+.header {
+/*	display: block;
+*/	background-image: url('../images/header/bg_new.gif');
 	background-size: 846px 279px;
 	background-repeat: repeat-x;
 }
