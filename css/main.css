@@ -3,6 +3,8 @@
   width: 100%;
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/grid.png) repeat #fefefe;
 }*/
+
+
 #buttons {
 	display: block;
 	text-align: center;
@@ -202,7 +204,7 @@ body, html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	min-width: 1000px;
+	width: auto;
 	position: relative;
 }
 
@@ -227,3 +229,16 @@ a {
 p {
 	margin: 10px 0;
 }
+/*
+@media only screen and (max-device-width: 960px) {
+
+		body {
+			min-width: auto;
+			
+		}
+
+		#content, #header {
+			float: none;
+			width: 100%;
+		}
+}*/
