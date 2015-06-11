@@ -8,8 +8,8 @@
 #buttons {
 	display: block;
 	text-align: center;
-	height: 50px;
-	/*padding:10px 20px;*/
+/*	height: 50px;*/
+	/*padding: px 0px;*/
 	width: 80%;
     margin: 0 auto;
 }
@@ -20,33 +20,35 @@
 	height: 25px;
 }
 .button {
-  display: inline-block;
-  width: 260px;
-  margin: auto 15px;
-  font-size: 28px;
-  font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
-  text-decoration: none;
-  text-shadow: 1px 1px 0px #fff;
-  font-weight: 400;
-  color: #666;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  padding: 15px 20px;
-*//*  position: relative;
+	display: inline-block;
+	width: 250px;
+	margin: 10px 15px;
+	font-size: 28px;
+	font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #fff;
+	font-weight: 400;
+	text-align: center;
+	color: #666;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 15px 20px;
+/*  position: relative;
 */  /*top: 50px;
   left: 30%;*/
-  background: #eee;
-  box-shadow: 1px 1px 1px #ffffff;
-  -moz-box-shadow: 1px 1px 1px #ffffff;
-  -webkit-box-shadow: 1px 1px 1px #ffffff;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+	background: #eee;
+	box-shadow: 1px 1px 1px #ffffff;
+	-moz-box-shadow: 1px 1px 1px #ffffff;
+	-webkit-box-shadow: 1px 1px 1px #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
+
 .button:hover {
   color: #333;
   background: #eeffff;
@@ -55,6 +57,7 @@
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
 .modalbg {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -75,8 +78,9 @@
   display: block;
   pointer-events: none;
 }
+
 .modalbg .dialog {
-  width: 50%;
+  width: 60%;
   position: relative;
   top: -1000px;
   margin: 20% auto;
@@ -122,7 +126,7 @@
   position: absolute;
   right: -12px;
   text-align: center;
-  top: -10px;
+  /*top: -10px;*/
   width: 24px;
   text-decoration: none;
   font-weight: bold;
@@ -152,7 +156,6 @@
   transition: all 0.5s ease-out;
 }
 
-
 #footer {
 	background: url('../view/spb/include/cars/images/footer.png');
 	background-position: center;
@@ -164,8 +167,8 @@
 
 #content {
 	background-color: white;
-	padding: 30px 80px 50px;
-	height: 300px;
+	padding: 30px 0px;
+	/*height: 30%;*/
 }
 
 #content li {
@@ -173,7 +176,9 @@
 	font-size: 15px;
 	line-height: 20px;
 }
-
+#logovirsus{
+	display: none;
+}
 #kontaktai{
 	width: 100%;
 }
@@ -229,16 +234,19 @@ a {
 p {
 	margin: 10px 0;
 }
-/*
+
 @media only screen and (max-device-width: 960px) {
+/*	body {
+		min-width: 650px;
+	}*/
 
-		body {
-			min-width: auto;
-			
-		}
+	body>.header>.right .logo {
+		display: none;
+	}
 
-		#content, #header {
-			float: none;
-			width: 100%;
-		}
-}*/
+	#logovirsus {
+		position: relative;
+		display: block;
+		float: none;
+	}
+}
