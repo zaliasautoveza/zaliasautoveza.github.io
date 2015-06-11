@@ -231,21 +231,4 @@ a {
 
 p {
 	margin: 10px 0;
-<<<<<<< HEAD
-}
-
-@media only screen and (max-device-width: 960px) {
-/*	body {
-		min-width: 650px;
-	}*/
-
-	body>.header>.right .logo {
-		display: none;
-	}
-
-	#logovirsus {
-		position: relative;
-		display: block;
-		float: none;
-	}
 }
