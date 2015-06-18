@@ -191,8 +191,10 @@
 }
 
 .fb-like {
-  text-align: center;
+  margin: 0 auto; 
+  width: 390px;
 }
+
 /*#kontaktai h2 {
 	text-align: center;
 	display: block;
