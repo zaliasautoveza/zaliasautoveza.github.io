@@ -3,13 +3,25 @@
   width: 100%;
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/grid.png) repeat #fefefe;
 }*/
+#aprasymas, #kontaktai {
+  display: block;
+  width: 80%;
+  margin: 30px auto 10px;
+}
+#kontaktai {
+  text-align: center;
+}
+#aprasymas p {
+  font-size: 18px;
+}
+
 #buttons {
 	display: block;
 	text-align: center;
 /*	height: 50px;*/
 	/*padding: px 0px;*/
 	width: 80%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .button img {
@@ -177,10 +189,8 @@
 #logovirsus{
 	display: none;
 }
-#kontaktai{
-	width: 100%;
-}
-#kontaktai h2 {
+
+/*#kontaktai h2 {
 	text-align: center;
 	display: block;
 	margin: 5px auto;
@@ -190,7 +200,7 @@
 	width: 200px;
 	display: block;
 	margin: 0 auto;
-}
+}*/
 
 /*#footer img{
 	display: block;
